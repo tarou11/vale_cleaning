@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ヴェールクリーン｜和歌山市の介護施設向け洗濯代行・リネン・クリーニング</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14233a;--pearl:#f7f9fa;--mist:#e4edf1;--gold:#a88c52;--line:#d5e0e6;--text:#2b3a4d}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Sans JP",sans-serif;color:var(--text);background:var(--pearl);line-height:1.9;letter-spacing:.04em}
+h1,h2,h3{font-family:"Shippori Mincho","Yu Mincho",serif;color:var(--ink);font-weight:700;line-height:1.5}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+h2{font-size:clamp(24px,3.4vw,32px);margin-bottom:20px}
+.lead{max-width:38em;margin-bottom:48px}
+.btn{display:inline-block;padding:16px 36px;border:1px solid var(--gold);background:var(--gold);color:#fff;text-decoration:none;font-weight:500;transition:background .2s,color .2s}
+.btn:hover{background:transparent;color:var(--gold)}
+.btn.dark{background:var(--ink);border-color:var(--ink)}
+.btn.dark:hover{background:transparent;color:var(--ink)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+.img{background-color:var(--mist);background-size:cover;background-position:center}
+
+.fv{min-height:70vh;display:flex;align-items:center;padding:48px 0;color:var(--ink);
+background:linear-gradient(90deg,rgba(255,255,255,.88) 0%,rgba(255,255,255,.6) 40%,rgba(255,255,255,0) 70%),url(images/hero-bg.jpg) center/cover,var(--mist)}
+.fv .fv-inner{display:flex;align-items:flex-start;gap:clamp(24px,4vw,64px);max-width:none;margin:0;padding-left:clamp(24px,7vw,120px);padding-right:24px}
+.fv-name{writing-mode:vertical-rl;font-size:14px;letter-spacing:.3em;color:#6b7785;margin-top:8px}
+.fv h1{writing-mode:vertical-rl;font-size:clamp(22px,3.1vw,40px);letter-spacing:.18em;line-height:1.7;font-weight:500;color:var(--ink);margin:0}
+.fv h1 span{display:block;white-space:nowrap}
+.fv-text{padding-top:clamp(0px,2vw,24px)}
+.fv-text p{margin-bottom:40px;font-size:17px;line-height:2.2;color:#5b6676}
+.fv-text .btn{background:var(--ink);border-color:var(--ink);padding:20px 56px}
+.fv-text .btn:hover{background:transparent;color:var(--ink)}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.split .img{aspect-ratio:4/5}
+.reasons{list-style:none;padding:0}
+.reasons li{padding:22px 0;border-top:1px solid var(--line)}
+.reasons li:last-child{border-bottom:1px solid var(--line)}
+.reasons h3{font-size:19px;margin-bottom:4px}
+
+.services{background:var(--mist)}
+.sv-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start}
+.sv-grid .img{aspect-ratio:1/1}
+.sv-list{list-style:none;padding:0}
+.sv-list li{background:#fff;padding:24px 28px;border-left:3px solid var(--gold);margin-bottom:16px}
+.sv-list h3{font-size:18px;margin-bottom:2px}
+.menu{margin-top:48px}
+.menu h3{font-size:18px;margin-bottom:12px}
+.menu ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.menu li{background:#fff;border:1px solid var(--line);padding:6px 18px;font-size:15px}
+
+.voices{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.voice{background:#fff;border:1px solid var(--line);padding:28px}
+.voice .star{color:var(--gold);letter-spacing:.2em;margin-bottom:10px}
+
+.proposal{background:var(--ink);color:#dfe8ee}
+.proposal h2,.proposal h3{color:#fff}
+.proposal .tag{display:inline-block;border:1px solid var(--gold);color:var(--gold);padding:2px 14px;font-size:13px;margin-bottom:16px}
+.proposal .box{border:1px solid rgba(255,255,255,.25);padding:32px;max-width:680px}
+.proposal h3{font-size:19px;margin-bottom:6px}
+.proposal small{display:block;margin-top:14px;opacity:.8}
+
+.about .img{aspect-ratio:4/3}
+
+.access{background:var(--mist)}
+.map{width:100%;height:380px;border:0;display:block;background:#fff}
+.map-btn{text-align:center;margin:28px 0 48px}
+dl{display:grid;grid-template-columns:8em 1fr;border-top:1px solid var(--line);background:#fff}
+dt,dd{padding:18px 24px;border-bottom:1px solid var(--line)}
+dt{font-weight:500;color:var(--ink)}
+
+.contact{text-align:center}
+.contact .btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+footer{background:var(--ink);color:#b9c6d2;text-align:center;padding:32px 24px;font-size:13px}
+
+@media(max-width:760px){
+section{padding:64px 0}
+.split,.sv-grid,.voices{grid-template-columns:1fr}
+.split,.sv-grid{gap:32px}
+.split .img{aspect-ratio:4/3}
+dl{grid-template-columns:1fr}
+dt{border-bottom:0;padding-bottom:0}
+.map{height:300px}
+.fv .fv-inner{flex-wrap:wrap}
+.fv-text{width:100%;padding-top:8px}
+.fv-text .btn{display:block;text-align:center;padding:18px 24px}
+.fv{background:linear-gradient(180deg,rgba(255,255,255,.85),rgba(255,255,255,.35)),url(images/hero-bg.jpg) center/cover,var(--mist)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<!-- FV：背景 images/hero-bg.jpg -->
+<header class="fv">
+  <div class="wrap fv-inner">
+    <div class="fv-name">ヴェールクリーン　和歌山市島橋東ノ丁</div>
+    <h1><span>人を想うクリーニングから、</span><span>人を支えるリネンへ。</span></h1>
+    <div class="fv-text">
+      <p>和歌山市のクリーニング・リネンサプライ会社。<br>一般衣類で培った丁寧さと品質をそのままに、<br>地域の現場を支えるリネンを届けます。</p>
+      <a class="btn" href="#access">店舗情報を見る</a>
+    </div>
+  </div>
+</header>
+
+<!-- 選ばれる理由：images/reason.jpg -->
+<section>
+  <div class="wrap split">
+    <div>
+      <h2>約50年、地域に根ざして</h2>
+      <p class="lead">1975年の創業以来、地域に根ざしたクリーニング会社として歩んできました。介護の現場を止めない、安定した運用を大切にしています。</p>
+      <ul class="reasons">
+        <li><h3>確実な集配</h3>寝具・衣類・タオル類などを定期的に集配します。</li>
+        <li><h3>徹底した衛生管理</h3>清潔さが欠かせない現場に、安心をお届けします。</li>
+        <li><h3>柔軟な対応力</h3>業務に合わせた対応で、安定した品質を提供します。</li>
+      </ul>
+    </div>
+    <div class="img" style="background-image:url(images/reason.jpg)" role="img" aria-label="清潔に整えられたリネン"></div>
+  </div>
+</section>
+
+<!-- イチオシ：images/service.jpg -->
+<section class="services">
+  <div class="wrap">
+    <h2>イチオシのサービス</h2>
+    <p class="lead">介護の現場から、ご家庭の衣類まで。一点一点に責任を持って向き合います。</p>
+    <div class="sv-grid">
+      <div class="img" style="background-image:url(images/service.jpg)" role="img" aria-label="洗濯代行・リネン供給"></div>
+      <ul class="sv-list">
+        <li><h3>介護施設向け洗濯代行・リネン供給</h3>寝具・衣類・タオル類などを定期的に集配し、清潔で安心できる環境づくりを支えます。</li>
+        <li><h3>一般衣類クリーニング</h3>日常着からスーツまで、丁寧な仕上がりを心がけています。</li>
+        <li><h3>特殊商品のクリーニング</h3>じゅうたん、着物、皮革製品など、取り扱いが難しい品物にも対応しています。</li>
+      </ul>
+    </div>
+    <div class="menu">
+      <h3>サービス一覧</h3>
+      <ul><li>介護施設向け洗濯代行・リネン供給</li><li>在宅介護向け洗濯代行・リネン供給</li><li>事業者様向けクリーニング・リネンサプライ</li><li>一般衣類クリーニング</li><li>特殊商品のクリーニング</li><li>各種販売（業務用・家庭用）</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- お客様の声 -->
+<section>
+  <div class="wrap">
+    <h2>お客様の声</h2>
+    <p class="lead">ご利用いただいたお客様から、こんなお声をいただいています。</p>
+    <div class="voices">
+      <div class="voice"><div class="star" aria-label="5段階中5">★★★★★</div>とても綺麗にクリーニングして頂けます。</div>
+    </div>
+  </div>
+</section>
+
+<!-- 提案 -->
+<section class="proposal">
+  <div class="wrap">
+    <span class="tag">ご提案</span>
+    <h2>有ればいいなと思うサービス</h2>
+    <div class="box">
+      <h3>地域密着型「布団・季節衣類の保管代行つきエコスマートパック」</h3>
+      <p>布団や季節衣類のクリーニングに、保管の代行を組み合わせたパックのご提案です。ご自宅の収納スペースを空けながら、必要な季節にきれいな状態でお受け取りいただけます。</p>
+      <small>※企業様へのご提案であり、現在のサービスではありません。</small>
+    </div>
+  </div>
+</section>
+
+<!-- 会社について：images/shop.jpg -->
+<section class="about">
+  <div class="wrap split">
+    <div class="img" style="background-image:url(images/shop.jpg)" role="img" aria-label="ヴェールクリーンの外観"></div>
+    <div>
+      <h2>ヴェールクリーンについて</h2>
+      <p>衣類や寝具、ユニフォーム、タオル類など、どの品物にも必ず「使う人」がいます。その方の立場に立ち、一点一点に責任を持って向き合うことが、創業時から変わらない私たちの仕事の基本です。</p>
+      <p style="margin-top:16px">代表取締役社長　片山 朋樹</p>
+      <p style="margin-top:24px"><a href="https://yamakyu-cleaning.net/" target="_blank" rel="noopener" style="color:var(--gold)">公式サイトを見る</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- アクセス -->
+<section class="access" id="access">
+  <div class="wrap">
+    <h2>アクセス</h2>
+    <iframe class="map" title="ヴェールクリーンの地図" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.189355549037!2d135.14969906480405!3d34.24371157196441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b278e8ca1103%3A0x53320d9705bc40e1!2z5qCq5byP5Lya56S-44Ok44Oe44Kt44Ol44Km44O744O044Kn44O844Or44Kv44Oq44O844Oz!5e0!3m2!1sja!2sjp!4v1792992703837!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <div class="map-btn">
+      <a class="btn dark" href="https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E6%AD%8C%E5%B1%B1%E7%9C%8C%E5%92%8C%E6%AD%8C%E5%B1%B1%E5%B8%82%E5%B3%B6%E6%A9%8B%E6%9D%B1%E3%83%8E%E4%B8%811%E7%95%AA46%E5%8F%B7+%E3%83%B4%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3" target="_blank" rel="noopener">地図を開く</a>
+    </div>
+    <dl>
+      <dt>店名</dt><dd>ヴェールクリーン</dd>
+      <dt>会社名</dt><dd>株式会社ヤマキュウ・ヴェールクリーン</dd>
+      <dt>住所</dt><dd>〒640-8413 和歌山県和歌山市島橋東ノ丁1番46号</dd>
+      <dt>営業時間</dt><dd>9:00〜18:00</dd>
+      <dt>定休日</dt><dd>日曜日・祝日</dd>
+      <dt>電話番号</dt><dd><a href="tel:0734550847">073-455-0847</a></dd>
+      <dt>対応エリア</dt><dd>和歌山県・大阪府・京都府・兵庫県・奈良県</dd>
+    </dl>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <h2>まずはお気軽にご相談ください</h2>
+    <p>お電話、LINE、お問い合わせフォームで受け付けています。</p>
+    <div class="btns">
+      <a class="btn" href="tel:0734550847">電話する</a>
+      <a class="btn dark" href="https://lin.ee/YEjdVK3" target="_blank" rel="noopener">LINEで相談する</a>
+      <a class="btn dark" href="https://yamakyu-cleaning.net/contact.html" target="_blank" rel="noopener">フォームで問い合わせる</a>
+    </div>
+  </div>
+</section>
+
+<footer>© 株式会社ヤマキュウ・ヴェールクリーン ／ 和歌山県和歌山市島橋東ノ丁1番46号</footer>
+</body>
+</html>
